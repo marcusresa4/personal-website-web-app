@@ -1,10 +1,10 @@
 from django.contrib import admin
-from apps.blog.models import Category, Post
+from apps.blog_app.models import Category, Post
 
 class CategoryAdmin(admin.ModelAdmin):
  	pass
 
- class PostAdmin(admin.ModelAdmin):
+class PostAdmin(admin.ModelAdmin):
  	pass
 
 # Defined empty classes PostAdmin and CategoryAdmin. For the purposes of this tutorial,
